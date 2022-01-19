@@ -1,0 +1,17 @@
+{
+  "name": "crypto-trader-spreadsheet",
+  "description": "Scripts for automated Google Spreadsheet to track cryptocurrencies",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KongoPL/crypto-trader-spreadsheet.git"
+  },
+  "author": "Jakub Poliszuk",
+  "license": "ISC"
+}
