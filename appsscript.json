@@ -1,14 +1,7 @@
 {
   "timeZone": "Europe/Warsaw",
   "dependencies": {
-    "libraries": [
-      {
-        "userSymbol": "BitBayAPI",
-        "version": "0",
-        "libraryId": "10SxgsV2JXGB-e-Y18DONhqdAKkFSKULb-ezJxqmJ8x7sKVXPcw54-gue",
-        "developmentMode": true
-      }
-    ]
+    "libraries": []
   },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8"
