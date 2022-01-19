@@ -8,6 +8,8 @@ function CRON_RequestUpdateData() {
 
 
 function CRON_UpdateData() {
+  Initialize();
+
   updateCurrentExchangeRates();
   updateTransactionsInSheet();
   updatePortfolio();

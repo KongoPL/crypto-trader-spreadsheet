@@ -8,9 +8,13 @@ const GLOBAL = {
   executeTimeStart: Date.now()
 };
 
-const ZondaApiInstance = ZondaApi.get();
+let ZondaApiInstance;
 
-ZondaApiInstance.authorize(
+function Initialize() {
+  ZondaApiInstance = CreateZondaApiInstance();
+
+  ZondaApiInstance.authorize(
     'public_key',
     'private_key'
-);
+  );
+}

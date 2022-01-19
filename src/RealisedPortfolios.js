@@ -1,5 +1,6 @@
+// Method still in progress...
 function BuildRealisedPortfoliosFromTransactionsAndPortfolios() {
-  // if(true) throw new Error("It is allowed only to run this method from apps-scripts level! Kill switch :)")
+  if(true) throw new Error("It is allowed only to run this method from apps-scripts level! Kill switch :)")
 
   const transactions = getSheetTransactionsSince(0);
   const portfolios = getPortfolios();

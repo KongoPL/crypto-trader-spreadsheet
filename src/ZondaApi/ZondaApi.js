@@ -83,12 +83,6 @@ class ZondaApi {
 	}
 }
 
-const bitbayInstance = create();
-
-function get() {
-	return bitbayInstance;
-}
-
-function create() {
+function CreateZondaApiInstance() {
 	return new ZondaApi();
 }

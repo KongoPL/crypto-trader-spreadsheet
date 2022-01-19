@@ -29,7 +29,7 @@ function updateSummary() {
   GLOBAL.summarySpreadsheet.getRange(`A${balances.length+2}:D${balances.length+2}`).setRichTextValues([
     [
     SpreadsheetApp.newRichTextValue()
-      .setText("Suma")
+      .setText("Summary")
       .setTextStyle(
         SpreadsheetApp.newTextStyle().setBold(true).build()
       )

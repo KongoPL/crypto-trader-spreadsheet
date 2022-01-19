@@ -6,8 +6,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy": "clasp push",
-    "deploy:watch": "clasp push --watch"
+    "push": "clasp push",
+    "push:watch": "clasp push --watch",
+    "open-scripts": "clasp open"
   },
   "repository": {
     "type": "git",

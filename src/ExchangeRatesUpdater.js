@@ -22,11 +22,11 @@ function updateCurrentExchangeRates() {
 }
 
 function getExchangeRateCellAddress(currency) {
-  return GLOBAL.exchangeRateSpreadsheet.getName()+"!B"+_getExchangeRateRow(currency);
+  return `'${GLOBAL.exchangeRateSpreadsheet.getName()}'!B${_getExchangeRateRow(currency)}`;
 }
 
 function getExchangeRateChangeCellAddress(currency) {
-  return GLOBAL.exchangeRateSpreadsheet.getName()+"!C"+_getExchangeRateRow(currency)
+  return `'${GLOBAL.exchangeRateSpreadsheet.getName()}'!C${_getExchangeRateRow(currency)}`;
 }
 
 function  _getExchangeRateRow(currency) {
