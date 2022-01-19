@@ -1,1 +1,4 @@
 node_modules
+
+# Config file, so it won't store credentials.
+config.js
