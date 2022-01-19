@@ -11,6 +11,6 @@ const GLOBAL = {
 const ZondaApiInstance = ZondaApi.get();
 
 ZondaApiInstance.authorize(
-    'public_key',
-    'private_key'
+    'more',
+    'changes'
 );
